@@ -1,0 +1,38 @@
+{
+  "name": "LoboBot-MD",
+  "website": "https://github.com/Ender-GB-Isis777",
+  "description": "Super WhatsApp bot",
+  "repository": "https://github.com/Ender-GB-Isis777/LOBO-BOT-MD",
+  "logo": "WaBot",
+  "success_url": "https://github.com/Ender-GB-Isis777/LOBO-BOT-MD",
+  "keywords": [ 
+    "nodejs", 
+    "heroku", 
+    "bot", 
+    "bots",
+    "bot",
+    "spanish",
+    "whatsapp",
+    "termux",
+    "shadow",
+    "multi-device",
+    "md",
+    "whatsappbot",
+    "oficial",
+    "whatsapp-md",
+    "themysticbot",
+    "themystic-bot",
+    "themystic-bot-md"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
